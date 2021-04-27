@@ -1,24 +1,5 @@
 # github_repos
 
-## Project setup
-```
-npm install
-```
+this an update to the challange.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+you could try it from here: https://morning-savannah-33260.herokuapp.com/
