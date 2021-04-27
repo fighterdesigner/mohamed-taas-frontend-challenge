@@ -1,6 +1,8 @@
 <template>
 	<div class="home d-flex justify-content-center align-items-center">
-		<router-link class="btn btn-primary" to="/profile">Authorize my Github accoun</router-link>
+		<router-link class="btn btn-primary" to="/profile"
+			>Authorize my Github accoun</router-link
+		>
 	</div>
 </template>
 
@@ -10,7 +12,7 @@ export default {
 };
 </script>
 <style scoped>
-	.home {
-		height: 100vh
-	}
+.home {
+	height: 100vh;
+}
 </style>

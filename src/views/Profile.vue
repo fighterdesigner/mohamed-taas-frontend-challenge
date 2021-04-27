@@ -3,9 +3,7 @@
 		<div class="container">
 			<div class="row justify-content-end align-items-center py-4">
 				<p class="mb-0 mr-3 h5 text-muted">{{ username }}</p>
-				<div
-					class="profile-img rounded-circle overflow-hidden border"
-				>
+				<div class="profile-img rounded-circle overflow-hidden border">
 					<img :src="useravatar" />
 				</div>
 			</div>
@@ -30,7 +28,9 @@
 					</ul>
 				</div>
 				<div class="col-12 col-md-9 card">
-					<branche-selector :repo-name="reponameprops"></branche-selector>
+					<branche-selector
+						:repo-name="reponameprops"
+					></branche-selector>
 				</div>
 			</div>
 		</div>
@@ -53,7 +53,7 @@ export default {
 			reposnames: [],
 			reposHolder: [],
 			typed: "",
-			reponameprops: ""
+			reponameprops: "",
 		};
 	},
 	methods: {
@@ -71,8 +71,8 @@ export default {
 					.startsWith(this.typed.toLowerCase());
 			});
 
-			if (this.typed === "") { 
-				this.reposnames = []
+			if (this.typed === "") {
+				this.reposnames = [];
 			}
 		},
 		fillInput(reponame) {

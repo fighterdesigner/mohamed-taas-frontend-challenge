@@ -38,7 +38,6 @@ class ReposClass {
 	}
 
 	static async getBrancheCommits(branchname, reponame, allbranches) {
-
 		const branche = allbranches.filter((branche) => {
 			return branche.name === branchname;
 		});
@@ -92,7 +91,7 @@ class ReposClass {
 			arrayOfCommits.push(merger);
 		}
 
-		return arrayOfCommits
+		return arrayOfCommits;
 	}
 
 	static GroupeBydate(commits, property) {
